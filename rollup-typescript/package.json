@@ -1,0 +1,29 @@
+{
+  "name": "webpack-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@types/lodash": "^4.14.116",
+    "lodash": "^4.17.11",
+    "rollup": "^0.66.2",
+    "rollup-plugin-commonjs": "^9.1.8",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-typescript": "^1.0.0",
+    "rollup-plugin-uglify": "^6.0.0",
+    "ts-loader": "^5.2.1",
+    "tslib": "^1.9.3",
+    "typescript": "^3.1.1"
+  },
+  "dependencies": {
+    "babel-loader": "^8.0.4"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "new-liveconnect-technologies-comparison",
+  "version": "1.0.0",
+  "description": "",
+  "main": "comparison.js",
+  "scripts": {
+    "init": "npm-recursive-install",
+    "start": "npm i && npm run init && npm start --prefix grunt-browserify-es5 && npm start --prefix grunt-browserify-es6 && npm start --prefix grunt-typescript && npm start --prefix webpack-es6 && npm start --prefix webpack-typescript && npm start --prefix rollup-typescript  && node ./comparison"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liveintent-berlin/new-liveconnect-technologies-comparison.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liveintent-berlin/new-liveconnect-technologies-comparison/issues"
+  },
+  "homepage": "https://github.com/liveintent-berlin/new-liveconnect-technologies-comparison#readme",
+  "devDependencies": {
+    "console.table": "^0.10.0",
+    "recursive-install": "^1.4.0"
+  }
+}
