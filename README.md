@@ -1,4 +1,4 @@
-# Comparison of technologies for the new LiveConnect tag
+# Comparison of bundling technologies 
 
 All you have to do is run `npm start`.
 
